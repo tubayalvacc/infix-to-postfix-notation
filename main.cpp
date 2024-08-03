@@ -94,7 +94,7 @@ void infixToPostfix(const char* infixExpression) {
         } else {
             strncat(postfixExpression, symbol, 1); // Add operands (numbers, variables) directly to postfix
         }
-        // Output the current state of the postfix expression
-        std::cout << "\n\nPostfix Expression: " << postfixExpression;
     }
+         // Output the current state of the postfix expression
+        std::cout << "\n\nPostfix Expression: " << postfixExpression;
 }
